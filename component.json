@@ -1,0 +1,14 @@
+{
+  "name": "insert-at-cursor",
+  "repo": "bmcmahen/insert-at-cursor",
+  "description": "insert an html string at the cursor position, or over the selected text",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ]
+}
