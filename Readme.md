@@ -13,8 +13,9 @@
 
 ```javascript
 var insert = require('insert-at-cursor');
-// You may need to ensure focus is set on the appropriate element.
-insert('<b>hello world</b>', { selectContent: true });
+document.getElementById('insert').onclick = function(e){
+  insert('<b>hello</b>', {selectContent: true});
+};
 ```
 
 ## License
